@@ -17,6 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -25,21 +26,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>cglib</groupId>
-            <artifactId>cglib</artifactId>
-            <version>3.3.0</version>
-        </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.aopalliance</groupId>-->
-<!--            <artifactId>aopalliance</artifactId>-->
-<!--            <version>1.0</version>-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.7</version>
-        </dependency>
 
     </dependencies>
 </project>
