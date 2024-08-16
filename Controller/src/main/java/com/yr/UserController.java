@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserController {
     @GetMapping(value = "/test")
     public void query() {
-        System.out.println("你好");
+        User user = new User();
+        user.setId(1);
+        user.setName("liu");
+        user.setAddr("aaaa");
+        System.out.println(user.toString());
     }
 }

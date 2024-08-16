@@ -9,7 +9,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Dao/pom.xml" />
         <option value="$PROJECT_DIR$/Mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/Service/pom.xml" />
       </set>
     </option>
   </component>
